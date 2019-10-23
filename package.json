@@ -1,0 +1,24 @@
+{
+  "name": "dicey-mcdiceface",
+  "version": "1.0.0",
+  "description": "first number to roll 5 times wins!",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marielklem/dice-game.git"
+  },
+  "author": "Mariel Klem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marielklem/dice-game/issues"
+  },
+  "homepage": "https://github.com/marielklem/dice-game#readme"
+}
