@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--- bootstrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!--- fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+  <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <!--- css -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Dicey McDiceFace</title>
+</head>
+
+<body>
+  <!--- modal -->
+  <div class="modal fade" data-backdrop="static" data-keyboard="false" id="winner">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body popout">
+          <h1>WINNER!</h1>
+          <div class="winner"></div>
+        </div>
+        <button type="button" class="btn btn-light btn-lg btn-block reset">Play Again!</button>
+      </div>
+    </div>
+  </div>
+
+  <!--- game -->
+  <div class="container">
+    <div class="row p-5"></div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12 col-xs-12 text-center">
+        <img src="static/logo.png" alt="dice" class="img-fluid logo" />
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-6 col-xs-12 result">
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-xs-12 text-center">
+        <button type="button" class="btn btn-success roll btn-lg btn-block">
+          <i class="fas fa-dice"></i>
+          <div>Roll Dice</div>
+        </button>
+        <button type="button" class="btn btn-danger btn-lg btn-block reset">Reset Game</button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <!--- scrips -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+  background-image: url('static/starburst1.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+
+.modal {
+  background-image: url('static/starburst1.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.popout {
+  font-family: 'Ultra', serif;
+  font-size: 10em;
+  text-align: center;
+  background-color: rgb(35, 156, 212);
+  color: aliceblue;
+}
+
+
+.dice{
+  font-size: 3em;
+  padding: 1%;
+  color: #524f4f
+}
+
+.result {
+  min-height: 120px;
+}
