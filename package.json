@@ -4,7 +4,7 @@
   "description": "first number to roll 5 times wins!",
   "main": "main.js",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "bootstrap": "^4.3.1"
   },
   "devDependencies": {},
